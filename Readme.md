@@ -1,23 +1,34 @@
-﻿Wafer Fault Detection Project - README
-Project Overview
-In the field of electronics, a wafer serves as a foundational substrate for the fabrication of integrated circuits, including those used in microelectronic devices and solar cells. The manufacturing process involves several intricate steps such as doping, ion implantation, and thin-film deposition. This project focuses on the detection of faults in wafer production through the application of machine learning.
-Problem Statement
-Data
-The project utilizes data from wafers, which are crucial components in the production of solar cells and microcircuits.
-Challenge
-Wafers are often located in remote areas, and their production involves numerous sensors. The manual identification of faulty wafers is time-consuming and costly. The goal is to implement a machine learning solution that can automatically detect faulty wafers, thereby eliminating the need for manual inspection and minimizing disruptions in the production process.
-Solution
-Approach
-The solution involves passing the data collected from wafers through a machine learning pipeline. The algorithm will analyze the data and determine whether a given wafer is faulty or not.
-Benefits
-* Cost Reduction: Automation reduces the need for manual labor, saving both time and resources.
-* Efficiency: Quick and accurate identification of faulty wafers minimizes disruptions in the production process.
-* Preventive Maintenance: Early detection of faults allows for timely intervention, preventing potential issues in the production line.
-Requirements
-To run the project, ensure you have the following requirements installed:
-* Python (version specified in requirements.txt)
-* Required Python libraries (specified in requirements.txt)
-* Jupyter Notebook (for exploring and running the provided notebooks)
-Explore the provided notebooks to understand the data and the machine learning pipeline.
-Run the necessary scripts or notebooks to train the model and perform wafer fault prediction.
-Happy coding!
+# Wafer Fault Detection Project
+
+## Project Overview
+
+In the intricate field of electronics manufacturing, wafers are foundational substrates used for the fabrication of integrated circuits, key in microelectronic devices and solar cells. The manufacturing process is complex, involving steps like doping, ion implantation, and thin-film deposition. This project aims at automating the detection of faults in wafer production through machine learning.
+
+## Problem Statement
+
+Wafers are essential in the production of components for solar cells and microcircuits. They are often produced in remote facilities equipped with numerous sensors. Manually spotting defective wafers is not only time-consuming but also costly. The goal of this project is to engineer a machine learning solution for the automatic detection of faults in wafers, thus obviating the need for manual inspection and reducing production stoppages.
+
+## Solution Approach
+
+Our solution involves running wafer data through a machine learning pipeline that analyzes and determines the fault status of each wafer.
+
+## Benefits
+
+- **Cost Reduction**: Automating fault detection reduces the need for manual labor, thus saving time and resources.
+- **Efficiency**: Swift and accurate fault identification lessens disruptions in the manufacturing process.
+- **Preventive Maintenance**: Early fault detection facilitates timely interventions, preventing downstream production issues.
+
+## Requirements
+
+To execute the project, ensure the following components are installed:
+- Python (version specified in `requirements.txt`)
+- All necessary Python libraries (as specified in `requirements.txt`)
+- Jupyter Notebook (to run and explore the provided notebooks)
+
+## Getting Started
+
+To set up the project on your local machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kudos07/wafer-fault-detection.git
